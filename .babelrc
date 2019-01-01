@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@vue/app",{
+      "polifills":[
+        "es6.promise",
+        "es6.symbol",
+        "es6.array.iterator"
+      ]
+    }]
+  ]
+}

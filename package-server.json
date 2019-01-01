@@ -1,0 +1,16 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodemon server",
+    "server": "pm2 start process.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-static": "5.0.0"
+  }
+}
